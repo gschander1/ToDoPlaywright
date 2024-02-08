@@ -40,3 +40,42 @@ The config property **fullyParallel** is set as *true* to run the test parallell
 4. For this particular application, I can also reduce the wait time to fail quickly, this can be configured in config file. I can also add more workers to run multiple tests simultaneously.
 5. I can further run the test in mobile web view.
 
+## Future Scenarios:
+
+### Adding to the list
+Test that adding a new item is displayed as active
+Test that adding a second item adds to the end of the list
+
+### Mark the item as done
+Test the an item can be set as done
+Test that when the item is set as done, then text is striked out
+Test that when the item is set as done, then radio button is checked
+Test that when the item is set as done, then count of items left is decresed
+
+
+### Set the item as active
+Test the a completed item can be set as active
+Test that when the completed item is set as active, then text is not striked out
+Test that when the completed item is set as active, then radio button is not checked
+Test that when the completed item is set as active, then count of items left is incremented
+
+### Editing the item
+Test that an active item can be edited and updated
+Test that a completed item can be edited and updated
+Test that when a completed item is edited the state is not changed
+Test that when an active item is edited the state is not changed
+
+### Deleting an item
+Test that an active item is *deleted* when cross is clicked
+Test that a completed item is *deleted* when cross is clicked
+
+### Filters
+Test *Completed* filter is showing all completed item and not active items
+Test *Active* filter is showing all Active items and not completed items
+Test *All* filter is showing all active and completed items
+Test that *Clear completed* filter is only displayed when there is atleasy one completed item
+Test that *Clear completed* filter is not displayed when completed item is marked active
+Test *Clear completed* filter will remove all completed items from the list
+Test that the *toggle all* filter will set all active items as completed
+Test that the *toggle all* filter will set all completed items as active
+Test that the *toggle all* filter will set all items as active when the list contains active and completed items
