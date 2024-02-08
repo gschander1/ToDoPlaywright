@@ -35,7 +35,7 @@ In most of the tests, I have followed the approach of retrieving the multiple it
 The config property **fullyParallel** is set as *true* to run the test parallelly to speed up the testing. Please set it to false if test needs to be run in sequence.
 
 1. In order to improve the quality, we can further keep the sort the diffetent functions and their locators into a separate class and import it. 
-2. `dot` reporting can also be added and integrate it with `CI` pipeline ensuring build fails when the test fails. 
+2. `dot` and `list` reporting can also be added and integrate it with `CI` pipeline ensuring build fails when the test fails. 
 3. I have noticed that the test are taking long time on Firefox. I would further investigate it in future and see if there is any reason behind that and if it can be improved.
 4. For this particular application, I can also reduce the wait time to fail quickly, this can be configured in config file. I can also add more workers to run multiple tests simultaneously.
 5. I can further run the test in mobile web view.
