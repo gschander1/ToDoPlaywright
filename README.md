@@ -69,7 +69,7 @@ The config property **fullyParallel** is set as *true* to run the test parallell
 - Test that an active item is *deleted* when cross is clicked
 -  Test that a completed item is *deleted* when cross is clicked
 
-- ### Filters
+### Filters
 - Test *Completed* filter is showing all completed item and not active items
 - Test *Active* filter is showing all Active items and not completed items
 - Test *All* filter is showing all active and completed items
