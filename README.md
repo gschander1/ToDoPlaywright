@@ -7,7 +7,7 @@ or
 
 `npx playwright test ./tests/todoListOperations.spec.js`
 
-to run in headless mode on Chromium
+to run in headled mode on Chromium
 
 `npx playwright test --project chromium`
 
